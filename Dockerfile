@@ -52,4 +52,7 @@ WORKDIR /theta
 COPY start.sh /start.sh
 RUN chmod +x /start.sh
 
+# Expose RPC ports
+EXPOSE 16888 16889
+
 ENTRYPOINT ["/start.sh"]
