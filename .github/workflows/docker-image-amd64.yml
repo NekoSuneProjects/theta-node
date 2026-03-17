@@ -37,5 +37,5 @@ jobs:
           context: .
           file: ./Dockerfile.AMD64
           push: true
-          tags: ${{ env.IMAGE_NAME }}:latest
+          tags: ${{ env.IMAGE_NAME }}:latest-amd64
           platforms: linux/amd64
